@@ -1,6 +1,7 @@
 # main menu navigation
 menu:
-  Home: /
+  # Home: /
+  Portfolio: /portfolio
   About: /about
   Archive: /archives
 
@@ -22,7 +23,7 @@ social:
 
 user:
   name: 金金
-  avatar: /images/favi-icon.jpeg
+  avatar: /images/jinjin-logo3.jpeg
   location:
   description: You cannot have what you're not willing to become vibrationally
   footnotes: # footnotes
@@ -50,7 +51,7 @@ comment_disqus:
 appearance: auto # Default value is auto
 
 # Miscellaneous
-favicon: images/favicon.ico
+favicon: images/favicon-32x32.png
 
 # friend_links:
 #   - title: Google
