@@ -18,3 +18,5 @@ logo 製作網站: https://app.logo.com
 $ hexo clean //刪除已經建立的靜態網頁
 $ hexo g //產生新的靜態檔案
 $ hexo d //發佈到 git
+
+靜態網站： vezona.github.io/
