@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JinJin&#39;s Blog</title>
+  
+  <subtitle>前端程式起步走</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-08-08T10:52:39.647Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>金金</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://example.com/2023/08/08/test/"/>
+    <id>http://example.com/2023/08/08/test/</id>
+    <published>2023-08-08T10:52:39.000Z</published>
+    <updated>2023-08-08T10:52:39.647Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>全新的旅程</title>
+    <link href="http://example.com/2023/08/01/new-journey/"/>
+    <id>http://example.com/2023/08/01/new-journey/</id>
+    <published>2023-08-01T09:01:21.954Z</published>
+    <updated>2023-09-27T08:50:05.266Z</updated>
+    
+    <content type="html"><![CDATA[<!-- ![cover](/images/riverAndTree.jpg) --><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h1 id="主要標題"><a href="#主要標題" class="headerlink" title="主要標題"></a>主要標題</h1><h2 id="次要標題"><a href="#次要標題" class="headerlink" title="次要標題"></a>次要標題</h2><dl><dt>內文</dt><dd>內文斷行細節內容</dd></dl><h3 id="第三層標題"><a href="#第三層標題" class="headerlink" title="第三層標題"></a>第三層標題</h3><ol><li><p>第一點<br><code>文字highlight</code></p></li><li><p>第二點 <em>em 強調</em> Uninstall <code>hexo-renderer-marked</code> and install <code>hexo-renderer-markdown-it</code> and associated plugins.</p><pre class="language-bash" data-language="bash"><code class="language-bash">hightlight <span class="token function">bash</span> 程式碼<span class="token function">npm</span> un hexo-renderer-marked <span class="token parameter variable">--save</span> <span class="token function">npm</span> i hexo-renderer-markdown-it <span class="token parameter variable">--save</span><span class="token function">npm</span> i markdown-it-emoji <span class="token parameter variable">--save</span> <span class="token function">npm</span> i markdown-it-mark <span class="token parameter variable">--save</span> <span class="token function">npm</span> imarkdown-it-deflist <span class="token parameter variable">--save</span> <span class="token function">npm</span> i markdown-it-container <span class="token parameter variable">--save</span></code></pre></li><li><p>Download <a href="https://github.com/qutang/hexo-theme-cutie/releases/latest">連結標題</a> and unzip it to <code>themes/</code> folder in your site. Then rename it to <code>cutie</code>.</p></li></ol><pre class="language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// hightlight js 程式碼</span><span class="token keyword">const</span> <span class="token function-variable function">tese</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=></span><span class="token punctuation">&#123;</span>    <span class="token keyword">this</span> is test<span class="token operator">...</span><span class="token punctuation">&#125;</span></code></pre><pre class="language-HTML" data-language="HTML"><code class="language-HTML">&lt;div&gt;  &lt;p&gt;1&lt;&#x2F;p&gt;  &lt;p&gt;2&lt;&#x2F;p&gt;  &lt;p&gt;3&lt;&#x2F;p&gt;  &lt;p&gt;4&lt;&#x2F;p&gt;&lt;&#x2F;div&gt;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;!-- ![cover](/images/riverAndTree.jpg) --&gt;
+
+&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=</summary>
+      
+    
+    
+    
+    <category term="javascript" scheme="http://example.com/categories/javascript/"/>
+    
+    
+    <category term="js" scheme="http://example.com/tags/js/"/>
+    
+  </entry>
+  
+</feed>
