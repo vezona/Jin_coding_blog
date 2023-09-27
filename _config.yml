@@ -102,4 +102,6 @@ theme: hexo-theme-Claudia
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: git
+  repo: https://github.com/vezona/vezona.github.io.git #簡單來說就是你的倉庫網址
+  branch: gh-pages

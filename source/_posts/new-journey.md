@@ -1,7 +1,7 @@
 ---
 title: 全新的旅程
-tags: [js, vue, tutorial]
-categories: [javascript30天挑戰賽]
+tags: [js]
+categories: [javascript]
 ---
 
 <!-- ![cover](/images/riverAndTree.jpg) -->
