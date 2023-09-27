@@ -14,12 +14,12 @@ widgets:
 
 # social config
 social:
-  zhihu:
-  twitter: /
-  facebook: /
-  linkedin:
-  instagram: /
-  github: 金金
+  # zhihu:
+  # twitter: /
+  facebook: vezona.chin/
+  linkedin: vezona
+  # instagram: vezona/
+  github: vezona
 
 user:
   name: 金金
