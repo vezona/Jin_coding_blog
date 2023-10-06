@@ -85,6 +85,11 @@ $lineColor: var(--border-line-color);
     a {
       color: $activeColor;
     }
+
+    ol li:not(:first-child) {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
   }
 
   .jump-container .button{
