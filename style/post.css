@@ -31,6 +31,9 @@
   transform: translateY(0);
 }
 
+.post-page .post-content p {
+  margin-bottom: 2rem;
+}
 .post-page .post-content code {
   border-radius: 4px;
   background: var(--third-bg-color);
@@ -58,6 +61,10 @@
 }
 .post-page .post-content a {
   color: #4E6E62;
+}
+.post-page .post-content ol li:not(:first-child) {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .post-page .jump-container .button {
   max-width: calc(50% - 5px);
