@@ -49,6 +49,9 @@ $lineColor: var(--border-line-color);
 
 .post-page {
   .post-content {
+    p{
+      margin-bottom: 2rem;
+    }
 
     code {
       border-radius: 4px;
