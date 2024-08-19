@@ -25,8 +25,9 @@ article.post-container.is-flex.is-justify-content-center.section.container.is-ma
                                 if post.title
                                     h2.mt-4.mb-0.is-family-serif
                                         a(href= postURL)= post.title
-                                if post.date
-                                    time.has-text-grey(datetime=post.date.toJSON())= date(post.date, date_format)
+                                if post.updated
+                                    time.has-text-grey(datetime=post.updated.toJSON())
+                                        | 更新時間: #{date(page.updated, date_format)}
                                 p.is-flex-grow-2.mt-2
                                     = truncate( strip_html(postContent), {length: 360, omission: '..'} )
                                 a.button.is-default.mt-2.has-text-weight-semibold(href= postURL)= __('read_more')
