@@ -43,15 +43,17 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+
+#  Claudia theme 蓋掉這邊對於程式碼樣式的設定
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
-  enable: true
+  enable: false
   preprocess: true
   line_number: false
   tab_replace: ""
