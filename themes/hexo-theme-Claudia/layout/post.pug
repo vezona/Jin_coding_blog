@@ -26,7 +26,12 @@ block content
                                 i.tag.post-item-tag= tag.name
                 h1.mt-0.mb-1.is-family-serif#postTitle= page.title
                 if page.date
-                    time.has-text-grey(datetime=page.date.toJSON())= date(page.date, date_format)
+                    time.has-text-grey.pr-4(datetime=page.date.toJSON()) 
+                        | 發布時間: #{date(page.date, date_format)}
+                if page.updated
+                    time.has-text-grey(datetime=page.updated.toJSON())
+                        | 更新時間: #{date(page.updated, date_format)}
+                article.mt-2.post-content!= page.content
                 article.mt-2.post-content!= page.content
                 section.jump-container.is-flex.is-justify-content-space-between.my-6
                     // em is empty placeholder
