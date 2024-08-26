@@ -1,3 +1,5 @@
+@import "common/variable";
+
 .header-widget {
   position: fixed;
   top: 0;
@@ -16,8 +18,18 @@
   a {
     margin: 0 8px;
     font-weight: bold;
+    // 因應變換header背景色，特別處理header的連結與hover顏色
+    color: #fff !important;
+    // color: var(--primary-text-color);
 
-    color: var(--primary-text-color);
+    &:hover, &:hover .iconfont {
+      color: #d1d1d1;
+    }
+  }
+
+  // 因應變換header背景色特別處理
+  p{
+    color: #fff !important;
   }
 
   h3 {
