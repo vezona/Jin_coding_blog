@@ -1,8 +1,8 @@
 # main menu navigation
 menu:
   # Home: /
-  Portfolio: /portfolio
   About: /about
+  Portfolio: /portfolio
   Archive: /archives
 
 widgets:
